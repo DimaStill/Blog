@@ -18,11 +18,7 @@
         margin-bottom: 50px;
     }
     
-    .social-block {
-        grid-area: social;
-        padding: 0;
-        place-self: center;
-    }
+    
     
     .icon {
         background-image: url(img/social-media.png);

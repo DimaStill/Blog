@@ -19,35 +19,36 @@
     }
     
     .icon {
-        background-image: url(img/sprites.png);
-        background-size: 350%;
+        background-image: url(img/social-media.png);
+        background-size: 300%;
         background-repeat: no-repeat;
         display: inline-block;
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         margin: 0 5px;
         border-radius: 100%;
+        background-color: var(--custom-color3);
     }
     
     .instagram {
-        background-position: 2px 4px;
+        background-position: -40px 1px;
         visibility: hidden;
         position: absolute;
     }
     
     .facebook {
-        background-position: -28px 4px;
+        background-position: 0px 1px;
         visibility: hidden;
         position: absolute;
     }
     
     .twitter {
-        background-position: -59px 4px;
+        background-position: -80px 1px;
         visibility: hidden;
         position: absolute;
     }
     
-    .social-block {
+    header .social-block {
         grid-area: search;
         margin-top: 15px;
         margin-right: 20px;
@@ -62,8 +63,13 @@
         background-color: var(--custom-color3);
     }
     
-    .icon:hover {
+    .social-block .search:hover {
         background-color: var(--custom-color3);
+    }
+
+    .main-container .icon {
+        visibility: visible;
+        position: relative;
     }
 
     #menu-toggle {

@@ -126,6 +126,12 @@ aside {
     grid-area: author;
 }
 
+.social-block {
+    grid-area: social;
+    padding: 0;
+    place-self: center;
+}
+
 .subscribe-block {
     grid-area: subscribe;
 }
