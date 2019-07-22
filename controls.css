@@ -37,10 +37,9 @@ input[type="submit"]:hover {
 }
 
 .search-block input[type="submit"] {
-    background: url(img/sprites.png);
-    background-size: 350%;
-    background-repeat: no-repeat;
-    background-position: -87px 3px;
+    background: url(img/search.png);
+    background-size: 85%;
+    background-position: 3px 3px;
     width: 35px;
     height: 35px;
     margin-top: 10px;
