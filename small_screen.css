@@ -19,7 +19,7 @@
     }
     
     .icon {
-        background-image: url(img/social-media.png);
+        background-image: url(img/sprites.png);
         background-size: 350%;
         background-repeat: no-repeat;
         display: inline-block;
@@ -29,34 +29,22 @@
         border-radius: 100%;
     }
     
-    .header .instagram {
+    .instagram {
         background-position: 2px 4px;
         visibility: hidden;
         position: absolute;
     }
     
-    .header .facebook {
+    .facebook {
         background-position: -28px 4px;
         visibility: hidden;
         position: absolute;
     }
     
-    .header .twitter {
+    .twitter {
         background-position: -59px 4px;
         visibility: hidden;
         position: absolute;
-    }
-
-    .instagram {
-        background-position: -40px 1px;
-    }
-    
-    .facebook {
-        background-position: 0px 1px;
-    }
-    
-    .twitter {
-        background-position: -80px 1px;
     }
     
     .social-block {
@@ -65,13 +53,17 @@
         margin-right: 20px;
         justify-self: right;
     }
-    .search {
-        background-position: -87px 3px;
-        margin-right: 10px; 
+    .social-block .search {
+        background-image: url(img/search.png);
+        background-repeat: no-repeat;
+        background-size: 85%;
+        background-position: 3px 3px;
+        margin-right: 10px;
+        background-color: var(--custom-color3);
     }
     
     .icon:hover {
-        background-color: var(--custom-color1);
+        background-color: var(--custom-color3);
     }
 
     #menu-toggle {
